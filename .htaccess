@@ -1,0 +1,7 @@
+# Bloqueia acesso direto ao .env pelo navegador (ele fica dentro da pasta do projeto)
+<Files ".env">
+    Require all denied
+</Files>
+
+# Não mostra a lista de arquivos das pastas
+Options -Indexes

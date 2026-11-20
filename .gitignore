@@ -1,0 +1,27 @@
+# Credenciais reais (NUNCA subir)
+.env
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores / IDEs
+.vscode/
+.idea/
+*.swp
+*.sublime-workspace
+
+# Temporários e logs
+*.log
+*.tmp
+*.bak
+error_log
+php_errors.log
+
+# Dependências (caso use Composer no futuro)
+/vendor/
+
+# Imagens enviadas pelo painel admin (as de exemplo ficam versionadas)
+# assets/img/produtos/*
+# !assets/img/produtos/.gitkeep
