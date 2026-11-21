@@ -1,0 +1,84 @@
+/* Estilos da Level Up Store (por cima do Bootstrap) */
+
+:root {
+    --cor-principal: #3b1a78;
+    --cor-destaque: #ffc107;
+    --cor-fundo: #f4f2fa;
+}
+
+body {
+    background-color: var(--cor-fundo);
+}
+
+.barra-topo {
+    background-color: var(--cor-principal);
+}
+
+.rodape {
+    background-color: var(--cor-principal);
+    color: #d9d0f0;
+}
+
+/* Cards dos produtos */
+.card-produto {
+    border: 1px solid #e2dcf2;
+    transition: box-shadow 0.15s ease-in-out;
+}
+
+.card-produto:hover {
+    box-shadow: 0 4px 14px rgba(59, 26, 120, 0.18);
+}
+
+.card-produto .img-produto {
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    width: 100%;
+}
+
+.preco {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--cor-principal);
+}
+
+.preco-grande {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--cor-principal);
+}
+
+/* Imagem pequena usada nas tabelas (carrinho, pedidos, admin) */
+.img-mini {
+    width: 64px;
+    height: 44px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* Campo de quantidade no carrinho */
+.campo-qtd {
+    width: 80px;
+}
+
+/* Opções de pagamento no checkout */
+.opcao-pagamento {
+    cursor: pointer;
+}
+
+.opcao-pagamento:has(input:checked) {
+    border-color: var(--cor-principal);
+    background-color: #ece6fa;
+}
+
+/* Área do painel admin */
+.menu-admin .nav-link.active {
+    background-color: var(--cor-principal);
+}
+
+.menu-admin .nav-link {
+    color: var(--cor-principal);
+}
+
+.menu-admin .nav-link.active {
+    color: #fff;
+}
